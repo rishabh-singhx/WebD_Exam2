@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+    user-select: none;
+}
+
+header{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(36, 13, 13);
+    position: fixed;
+    top: 0;
+    padding: 5px 200px;
+    flex-wrap: wrap;
+    z-index: 10;
+    height: 80px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+nav li{
+    padding: 10px ;
+    font-size: 16px;
+}
+nav li:hover{
+    color: lightgreen;
+}
+a{
+    text-decoration: none;
+}
+i{
+    color: #29d9d5;
+    font-size: 32px;
+    padding: 5px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.cardy1 p{
+    display: inline-block;
+    color:white;
+    font-size: 51px;
+    font-weight: 751px;
+    position: absolute;
+    right:101px;
+    margin-top: 251px;
+    word-spacing: 11px;
+}
+.cardy1{
+    display: flex;
+    margin-top: 61px;
+    width:100vw;
+    height:671px;
+    background-color:rgb(132, 23, 133);
+    background-image: url(./images/bubbles-dktp.svg);
+}
+button:hover{
+    scale: 1.1;
+}
+
+button{
+    background-color: white;
+    color:black;
+    font-size: 18px;
+    position: absolute;
+    right:331px;
+    margin-top: 31%;
+    border:0px solid white;
+    height: 56px;
+    width:251px;
+    border-radius: 41px;
+}
+.outside{
+    height:500px;
+    width: 254px;
+    position: absolute;
+    left:167px;
+    top:111px;
+}
+.in{
+    height:428px;
+    width: 241px;
+    position: absolute;
+    left:174px;
+    top:146px;
+}
+
+
+
+
+
+.cardy2{
+    height:399px;
+    width:100vw;
+    background-color: white;
+
+}
+
+.cardy2 img{
+    width:100px;
+    height:100px;
+    margin:10px 80px;
+}
+
+.cardy2 p{
+    display: block;
+    margin-top: 31px;
+    margin-left: 39%;
+    height:24px;
+    font-size: 29px;
+    color: black;
+}
+
+.containey{
+    width: 99vw;
+    height:399px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 15%;
+    margin-top: 79px;
+}
+.cardy2 div{
+    height:299px;
+    width:249px;
+}
+
+.l1{
+    font-size: 24px;
+    font-weight: 549;
+    margin-top: 14px;
+    margin-left: 29px;
+}
+
+.l2{
+    font-size: 17px;
+    font-weight: 499;
+    margin-top: 16px;
+    margin-left: 29px;
+}
+
+
+
+.cardy3{
+    background-color:rgb(109, 15, 110);
+    width:100vw;
+    height:299px;
+}
+
+.h_1{
+    color: white;
+    margin-left: 42%;
+    padding-top: 99px;
+    font-size: 49px;
+}
+
+.h_2{
+    color: white;
+    margin-left: 30%; 
+    font-size: 50px;  
+}
